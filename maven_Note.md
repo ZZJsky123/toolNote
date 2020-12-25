@@ -34,7 +34,9 @@
 >
 > 心仓库，对项目需要的`jar`包Maven会由近到远的查找：本地->私人->中心
 >
-> 将需要的包放入本地仓库。 我们通过修稿conf文件中的`setting.xml`配置文件<localRepository> 本地仓库路径</localRepository> 从而Maven将依赖包每次都放入自己定义的本地仓库中。
+> 将需要的包放入本地仓库。 我们通过修稿conf文件中的`setting.xml`配置文件
+<localRepository> 本地仓库路径</localRepository> 从而Maven将依赖包每次都
+放入自己定义的本地仓库中。
 
 
 
